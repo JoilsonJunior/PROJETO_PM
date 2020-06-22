@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <script type="text/javascript" src="js/function/validacao.js"></script>
+        
+</head>
+
+<body>
+            <nav>
+
+                    <div class="logo">
+                        <img src="img/01.png" width="100px">
+                    </div>
+
+                    <ul class="nav-links">
+                    
+                        <li><a href="/create">EDITAR</a></li>
+                        <li><a href="#">DISCIPLINAS</a></li>
+                        <li><a href="#">CURSOS E AÇÕES</a></li>
+                        <li><a href="#">FAMILÍAS CARENTES</a></li>
+                        <li><a href="#">PACIENTE</a></li>               
+                        
+                    </ul>
+            </nav>  
+             
+        <form class="card" method="POST" action="/principal">
+            <section class="details">
+                <h1 class="ficha">FICHA DE INSCRIÇÃO DE VOLUNTÁRIOS</h1><br>
+                <h3>DADOS PESSOAIS</h3><br><br>
+
+               <div class="group">
+                    <div class="col">
+                     <div class="item">
+                        <div>NOME:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="name" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>LOCALIDADE:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="s" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>TELEFONE:</div>
+                        <div>
+                            <input 
+                            type="tel"
+                            name="telefone" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>NATURALIDADE:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="d" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>IDADE:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="f" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>DATA EMISSÃO:</div>
+                        <div>
+                            <input 
+                            type="date"
+                            name="birth" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>CPF:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="g" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>CARTEIRA DE HABILITAÇÃO:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="h" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>SEXO:</div>
+                        <div>
+                          <span><input type="radio" name="gender" value="M" required>Masculino</span>
+                        <span><input type="radio" name="gender" value="F" required>Feminino</span>
+                        </div>
+                    </div>
+                    
+                    
+               </div>
+               <div class="col">
+                     <div class="item">
+                        <div>ENDEREÇO:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="t" required
+                            >
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div>CEP:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="w" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>NACIONALIDADE:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="u" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>DATA DE NASCIMENTO:</div>
+                        <div>
+                            <input 
+                            type="date"
+                            name="i" required>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>RG:</div>
+                        <div>
+                            <input 
+                            type="text"
+                            name="p" required
+                            >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>LOCAL EMISSÃO:</div>
+                        <div>
+                            <input  
+                            type="text"
+                            name="o" required
+                            >
+                        </div>
+                    </div>
+                     <div class="item">
+                        <div>E-MAIL:</div>
+                        <div>
+                            <input 
+                            type="email"
+                            name="m" 
+                            autocomplete="on"
+                            id="m"
+                            >
+                            </div>
+                            
+                        </div>
+                    </div>
+                    </div>
+                
+               </div>
+               <section class="details3"><br><br>
+                <h1 class="ficha"></h1>
+
+                <h3>FORMAÇÃO ACADÊMICA</h3>
+
+                <h4>Qual seu Grau de Escolaridade?</h4>
+                
+                <div class="grauAcad">
+                     <div class="col">
+                <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox5">SEM ESCOLARIDADE</label></div>
+                                
+                                                        
+                        
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div></div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        
+                     <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox6">ENSINO FUNDAMENTAL</label></div>
+                                
+                                                        
+                        
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div></div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox7">ENSINO MÉDIO</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div></div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>   
+                    <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox8">NÍVEL SUPERIOR COMPLETO</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>QUAL?</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                        
+                    </div>   
+
+                       <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox9">NÍVEL SUPERIOR INCOMPLETO</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>QUAL?</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>  
+                            <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox10">PÓS GRADUAÇÃO</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>QUAL?</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div> 
+                            <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox11">MESTRADO/DOUTORADO</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>QUAL?</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>  
+                            <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox12">PROFISSÃO</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>QUAL?</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>             
+                <div>
+           
+                <div>
+            
+                <div>
+           
+                <div>
+                
+
+        
+            
+            </section>
+<section class="details3"><br>
+                <h1 class="ficha"></h1>
+
+                <h3>SITUAÇÃO ATUAL</h3>
+
+            
+                
+                <div class="grauAcad">
+                    <div class="col">
+                <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox2">ESTUDANTE</label></div><br>
+                                
+                                                        
+                        
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div></div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        
+                     <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox">EMPREGADO (A)</label></div>
+                                
+                                                        
+                        
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>LOCAL:</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox1">DESEMPREGADO (A)</label></div><br>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div></div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>   
+                    </div>
+
+            
+            <section class="details3"><br>
+                <h1 class="ficha"></h1>
+
+                <h3>SITUAÇÃO ATUAL</h3>
+
+            
+                
+                <div class="grauAcad">
+                    <div class="col">
+                <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox2">ESTUDANTE</label></div><br>
+                                
+                                                        
+                        
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div></div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        
+                     <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox">EMPREGADO (A)</label></div>
+                                
+                                                        
+                        
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>LOCAL:</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox1">DESEMPREGADO (A)</label></div><br>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div></div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    </div>   
+                    <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox3">REFORMADO (A)/PENSIONISTA</label></div><br>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div></div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                        
+                    </div>   
+                    
+
+                       <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox4">MILITAR</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>QUAL?</div>
+                        <div>
+                            <input 
+                                type="text"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                        
+                    </div>   
+                     <div class="col"
+                       <input class="check">
+                     
+                     <label class="checkbox13">OUTRAS COMPETÊNCIAS</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>QUAL?</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                        
+                    </div>   
+                     <div class="col">
+                       <input class="check1"  type="checkbox">
+                     <div>
+                     <label class="checkbox20">TEM FORMAÇÃO EM VOLUNTARIADO</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>SE SIM, QUAL?</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>                        
+                        
+                    </div>   
+                    <div class="col">
+                       <input class="check2"  type="checkbox">
+                     <div>
+                     <label class="checkbox21">TEM EXPERIÊNCIA EM VOLUNTARIADO</label></div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <div>SE SIM, QUAL?</div>
+                        <div>
+                            <input 
+                                type="email"
+                                name="name" 
+                                autocomplete="on"
+                                class="line">
+                            </div>                            
+                        </div>
+                    
+                        
+                    </div>   
+            <section class="details3"><br><br>
+                <h1 class="ficha"></h1>
+
+                <h3>QUAIS AS RAZÕES QUE MOTIVAM PARA A PRÁTICA DO VOLUNTARIADO</h3>
+
+                
+                <div class="grauAcad">
+                     <div class="col">
+                <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox30">ALARGAR A REDE DE CONTATOS PESSOAIS</label></div>
+                    </div>
+                    <div class="col">
+                        
+                     <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox31">VALORIZAÇÃO PROFISSIONAL</label></div>
+                    </div>
+                    
+                    
+                    
+                    <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox32">OBTENÇÃO DE NOVAS EXPERIÊNCIAS</label></div>
+                    </div>
+                 
+                    <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox33">INCETIVADO POR TERCEIROS</label></div>
+                    </div>
+                
+
+                       <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox34">SATISFAÇÃO E ENRIQUECIMENTO PESSOAL</label></div>
+                    </div>
+                  
+                            <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox35">OCUPAÇÃO DE TEMPOS LIVRES</label></div>
+                    </div>
+                    
+                            <div class="col">
+                       <input class="check"  type="checkbox">
+                     <div>
+                     <label class="checkbox36">AJUDAR O OUTRO</label></div>
+                    </div>
+                
+                </div>
+
+            
+               <center>
+               <button class="botao" type="submit">Salvar</button>
+               </center>
+               </div>
+            </section>
+        </form>   
+
+    </div>
+</body>
+</html>

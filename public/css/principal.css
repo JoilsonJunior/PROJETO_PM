@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #e0f2f4;
+}
+
+/*== Menu ==*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 15vh;
+    background-color: rgb(46, 2, 150);
+}
+.logo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px;    
+}
+
+
+/* Menu Itens */
+
+.col_itens{
+    position: relative;
+    text-align: start;
+    align-items: center;    
+    margin-top: 3%;
+    right: 50%;
+    
+}
+.col_itens a{
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: 1px solid;
+    font-weight: 700;
+    font-size:16px ;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    color: white;
+    margin-right: 20px;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    border-radius: 15px;
+}
+
+
+
+/* Card */
+
+.card{
+    background-color: white;
+    width: 1250px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 10px #cccccc;
+    
+
+    /* Animation */
+    animation: up 800ms ease-out;
+}
+.group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.group2{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to{
+        opacity: 3;
+    }
+}
+
+/* Details create */
+
+.ficha{
+    text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: rgb(46, 2, 150);
+    border-bottom: 4px solid rgb(46, 2, 150);
+    padding-bottom: 15px;
+    
+
+}
+/* Tela de Create primeira parte */
+
+.details {
+    padding: 32px;
+}
+
+.details .item{
+    border-bottom: 1px solid rgb(0, 0, 0,0.1);
+    padding: 15px 4;    
+}
+.details .item:last-child {
+    border: none;
+}
+
+.details .item div:nth-child(1){
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    letter-spacing: 0.7px;
+    font-weight: normal;
+}
+.details .item div:nth-child(2){
+    color: #555;
+    font-weight: bold;
+    font-size: 28px;
+}
+.details h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(46, 2, 150);
+}
+
+.details .item span {
+    padding:  8px 16px;
+    background-color: rgb(46, 2, 150);
+    color: white;
+    border-radius: 30px;
+    margin-right: 4px;
+    margin-top: 8px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+/* Details principal */
+
+
+.details2 {
+    padding: 32px;
+    
+}
+
+.details2 .item{
+    border-bottom: 1px solid rgb(0, 0, 0,0.1);
+    padding: 15px 4;    
+}
+.details2 .item:last-child {
+    border: none;
+}
+
+.details2 .item div:nth-child(1){
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    letter-spacing: 0.7px;
+    font-weight: normal;
+}
+.details2 .item div:nth-child(2){
+    color: #555;
+    font-weight: bold;
+    font-size: 20px;
+}
+.details2 h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(46, 2, 150);
+}
+
+.details2 .item span {
+    padding:  8px 16px;
+    background-color: rgb(46, 2, 150);
+    color: white;
+    border-radius: 30px;
+    margin-right: 4px;
+    margin-top: 8px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+
+
+
+
+/* Form */
+
+input {
+    width: 90%;
+    outline: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+button[type="submit"]{
+    padding: 8px 32px;
+    background-color: rgb(46, 2, 150);
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-top: 70px;
+    width: 30%;
+    font-size: 16px;
+}
+
+.title{
+    text-align: center;
+    margin: 60px;
+    color: rgb(46, 2, 150);
+  
+}
+
+.details3 h3{
+    margin: 25px;
+}
+.details3 h4{
+    margin: 25px;
+    color: rgb(46, 2, 150);
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#nivelEscolaridade {
+   width: 95%;
+   height: 35px;
+   border: 1px solid rgb(46, 2, 150);
+   
+
+}
+
+.grauAcad {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.line {
+    border-bottom: 1px solid rgb(0, 0, 0,0.1);
+    padding: 15px 4;
+    
+    
+    
+    
+}
+
+.col {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.check{
+    position: relative;
+    top: 25px;
+    left: 275px;
+    
+    
+}
+.check1{
+    position: relative;
+    top: 25px;
+    left: 10px;
+    
+    
+}
+.check2{
+    position: relative;
+    top: 25px;
+    left: 12px;
+    
+    
+}
+.checkbox5{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 389px;
+    
+}
+
+
+.checkbox6{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 365px;
+    
+}
+
+.checkbox7{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 432px;
+    
+}
+
+.checkbox8{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 330px;
+    
+}
+.checkbox9{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 315px;
+    
+}
+
+.checkbox10{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 415px;
+    
+}
+
+.checkbox11{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 357px;
+    
+}
+
+.checkbox12{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 465px;
+    
+}
+
+.checkbox13{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    
+    
+}
+.checkbox{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 424px;
+    
+}
+
+.checkbox1{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 393px;
+    
+}
+
+.checkbox2{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 455px;
+    
+}
+
+.checkbox3{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 317px;
+    
+}
+
+.checkbox4{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 485px;
+    
+}
+
+.checkbox20{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 265px;
+    
+}
+
+.checkbox21{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 253px;
+    
+}
+.checkbox30{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 230px;
+    
+}
+.checkbox30{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 225px;
+    
+}
+.checkbox31{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 320px;
+    
+}
+.checkbox32{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 264px;
+    
+}
+.checkbox33{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 330px;
+    
+}
+.checkbox34{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 224px;
+    
+}
+.checkbox35{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 315px;
+    
+}
+.checkbox36{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 418px;
+    
+}
+
+.logo1{
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+.checkbox37{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 418px;
+    
+}
+
+#experienciaVoluntario{
+    width: 48%;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+}
+
