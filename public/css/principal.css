@@ -180,9 +180,11 @@ nav .nav-links a:hover::before{
     grid-template-columns: 1fr 1fr;
     
 }
-.group2{
+.group1{
     display: grid;
     grid-template-columns: 1fr;
+    position: relative;
+    right: 32px;
     
 }
 
