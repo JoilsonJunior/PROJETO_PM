@@ -10,8 +10,13 @@ routes.get('/NovaSenha', function(req,res){
 })
 
 routes.get('/create', function(req,res){
-    return res.render('create')
-    
+    return res.render('create')    
+})
+routes.get('/disciplina', function(req,res){
+    return res.render('disciplina')    
+})
+routes.get('/createDisc', function(req,res){
+    return res.render('createDisc')    
 })
 
 routes.get('/principal', function(req,res){
