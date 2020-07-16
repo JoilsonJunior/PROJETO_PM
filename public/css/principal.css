@@ -25,9 +25,14 @@ header{
     top: 0;
     left: 0;
     z-index: 100;
-    min-height: 12vh;
+    min-height: 14vh;
     background: rgb(46, 2, 150);
 
+}
+
+.logo{
+    position: relative;
+    top: 8px;
 }
 
 .content-header{
@@ -621,9 +626,9 @@ button[type="submit"]{
     
 }
 
-.logo1{
+.logo2{
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 90px;
 }
 .checkbox37{
