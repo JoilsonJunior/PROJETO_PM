@@ -12,15 +12,16 @@ routes.get('/NovaSenha', function(req,res){
 routes.get('/create', function(req,res){
     return res.render('create')    
 })
+routes.get('/principal', function(req,res){
+    return res.render('principal')
+    
+})
 
 routes.get('/createDisc', function(req,res){
     return res.render('createDisc')    
 })
 
-routes.get('/principal', function(req,res){
-    return res.render('principal')
-    
-})
+
 
 
 

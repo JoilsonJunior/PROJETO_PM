@@ -749,3 +749,12 @@ button[type="submit"]{
 
     
 }
+table, th, td {
+    border: 1px solid rgb(46, 2, 150);
+  }
+
+  th, td {
+    padding: 10px;
+  }
+  
+  
