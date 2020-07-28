@@ -20,6 +20,9 @@ routes.get('/principal', function(req,res){
 routes.get('/createDisc', function(req,res){
     return res.render('createDisc')    
 })
+routes.get('/disciplina', function(req,res){
+    return res.render('disciplina')    
+})
 
 
 

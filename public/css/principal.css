@@ -18,6 +18,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    
 }
 header{
     position: fixed;
@@ -27,6 +28,8 @@ header{
     z-index: 100;
     min-height: 14vh;
     background: rgb(46, 2, 150);
+    box-shadow: 0px 0px 7px 7px black;
+    
 
 }
 
@@ -246,8 +249,33 @@ nav .nav-links a:hover::before{
 .details h3{
     text-transform: uppercase;
     font-weight: bold;
-    color:rgb(46, 2, 150);
+    color:white;
+    background-color: rgb(46, 2, 150);
+    padding: 1%;
+    position: relative;
+    width: 25%;
+    top: -25px;
+    box-shadow:  7px 7px #25a6b8;
+    
+
 }
+
+.h3{
+    position: relative;
+    right: 25px;
+
+
+}
+
+#h4{
+    position: relative;
+    right: 25px;
+    width: 57%;
+
+
+}
+
+
 
 .details .item span {
     padding:  8px 16px;
@@ -349,7 +377,7 @@ button[type="submit"]{
     margin: 25px;
 }
 .details3 h4{
-    margin: 25px;
+    margin: 10px;
     color: rgb(46, 2, 150);
     font-size: 24px;
     line-height: 34px;
@@ -745,10 +773,11 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 295px;
-
-    
+    padding-right: 295px;   
 }
+
+/* Diciplinas - QUAL O TEMPO DISPONIVEL PARA O EXERCÍCIO DO VOLUNTARIADO? */
+
 table, th, td {
     border: 1px solid rgb(46, 2, 150);
   }
@@ -756,5 +785,43 @@ table, th, td {
   th, td {
     padding: 10px;
   }
+
+  /* Diciplinas - EM QUE ÁREA GOSTARIA DE FAZER VOLUNTARIADO NO PROJETO EDUCAÇÃO DE BASE?*/
+
+  .checkbox58{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 415px;   
+    border-radius: 50px;
+}
+
+.checkbox59{
+
+  width: 60px;
+  border: 2px solid rgb(46, 2, 150);
+  padding: 5px;
+  padding-right: 345px;   
+  border-radius: 50px;
+}
+
+.checkbox60{
+
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 465px;   
+    border-radius: 50px;
+  }
+
+  .checkbox61{
+
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 292px;   
+    border-radius: 50px;
+  }
+
   
   
