@@ -278,16 +278,23 @@ nav .nav-links a:hover::before{
 
 
 .details .item span {
-    padding:  8px 16px;
+    padding: 1px 35px;
     background-color: rgb(46, 2, 150);
     color: white;
     border-radius: 30px;
     margin-right: 4px;
-    margin-top: 8px;
+    margin-top: 30px;
     display: inline-block;
     font-weight: bold;
+    text-align: center;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 12px;
+}
+
+.radio1{
+    position: relative;
+    right: 50px;
+    top: 20px;
 }
 
 /* Details principal */
@@ -336,7 +343,6 @@ nav .nav-links a:hover::before{
     text-transform: uppercase;
     font-size: 11px;
 }
-
 
 
 
