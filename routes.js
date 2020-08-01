@@ -24,6 +24,13 @@ routes.get('/disciplina', function(req,res){
     return res.render('disciplina')    
 })
 
+routes.get('/createCursos', function(req,res){
+    return res.render('createCursos')    
+})
+routes.get('/cursoseacoes', function(req,res){
+    return res.render('cursoseacoes')    
+})
+
 
 
 
