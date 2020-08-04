@@ -861,8 +861,8 @@ table, th, td {
     position: relative;
     display: flex;
     width: 25em;
-    height: 3em;
-    line-height: 3;
+    height: 2em;
+    line-height: 2;
     background: #5c6664;
     overflow: hidden;
     border-radius: .25em;
@@ -882,3 +882,5 @@ table, th, td {
  .select:hover::after {
     color: #23b499;
  }
+
+ 

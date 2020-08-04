@@ -35,7 +35,7 @@
                         <li><a href="/createDisc">DISCIPLINAS</a></li>
                         <li><a href="/createCursos">CURSOS E AÇÕES</a></li>
                         <li><a href="#">PARTCIPANTES</a></li>
-                        <li><a href="#">FAMILÍAS CARENTES</a></li>
+                        <li><a href="/createFamilia">FAMILÍAS CARENTES</a></li>
                         <li><a href="#">PACIENTE</a></li>               
                         
                     </ul>
@@ -328,26 +328,29 @@
                         </div>
                         </div>
                               <div class="col">
-                <div class="item">
-                        <div>CASA:</div>
-                        <div>
-                          <span><input type="radio" name="gender" value="M" required>PRÓPRIA</span>
-                        <span><input type="radio" name="gender" value="F" required>CEDIDA</span>
-                        <span><input type="radio" name="gender" value="F" required>ALUGADA</span>
-                          </div>
-                         </div>
-                        </div>
+<div>CASA:</div><br>
+                        
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="pdf">PRÓPRIA</option>
+      <option value="txt">CEDIDA</option>
+      <option value="txt">ALUGADA</option>
+
+   </select>
+</div>
                         
                          <div class="col">
-                <div class="item">
-                        <div>RECEBE BOLSA FAMÍLIA:</div>
+           <div>RECEBE BOLSA FAMÍLIA:</div><br>
                         
-                          <span><input type="radio" name="gender" value="M" required>SIM</span>
-                        <span><input type="radio" name="gender" value="F" required>NÃO</span>
-                        
-                          
-                         </div>
-                       </div><br><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="pdf">SIM</option>
+      <option value="txt">NÃO</option>
+
+   </select>
+</div><br><br>
                        <label class="checkbox57">NÚMERO DO NIS</label></div>
                     </div>
                     <div class="col">

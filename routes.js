@@ -31,6 +31,14 @@ routes.get('/cursoseacoes', function(req,res){
     return res.render('cursoseacoes')    
 })
 
+routes.get('/createFamilia', function(req,res){
+    return res.render('createFamilia')    
+})
+
+routes.get('/familiacarente', function(req,res){
+    return res.render('familiacarente')    
+})
+
 
 
 
