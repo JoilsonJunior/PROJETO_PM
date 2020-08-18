@@ -259,6 +259,12 @@ nav .nav-links a:hover::before{
     
 
 }
+.h{
+    position: relative;
+    right: 25px;
+
+
+}
 
 .h3{
     position: relative;
@@ -266,6 +272,7 @@ nav .nav-links a:hover::before{
 
 
 }
+
 
 #h4{
     position: relative;
@@ -447,148 +454,23 @@ button[type="submit"]{
     
 }
 
-.checkbox5{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 400px;
-    border-radius: 50px;
-    
-}
-
-
-.checkbox6{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 378px;
-    border-radius: 50px;
-    
-}
-
-.checkbox7{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 440px;
-    border-radius: 50px;
-    
-}
-
-.checkbox8{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 342px;
-    border-radius: 50px;
-    
-}
-.checkbox9{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 328px;
-    border-radius: 50px;
-    
-}
-
-.checkbox10{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 415px;
-    border-radius: 50px;
-    
-}
-
-.checkbox11{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 359px;
-    border-radius: 50px;
-    
-}
-
-.checkbox12{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 465px;
-    border-radius: 50px;
-    
-}
-
-.checkbox40{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 440px;
-    border-radius: 50px;
-    
-}
-.checkbox41{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 437px;
-    border-radius: 50px;
-    
-}
-.checkbox42{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 439px;
-    border-radius: 50px;
-}
-.checkbox43{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 467px;
-    border-radius: 50px;
-    
-}
-.checkbox44{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 490px;
-    border-radius: 50px;
-    
-}
-
-.checkbox13{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    
-    
-}
-.checkbox{
-    width: 60px;
-    border: 2px solid rgb(46, 2, 150);
-    padding: 5px;
-    padding-right: 425px;
-    border-radius: 50px;
-    
-}
+/*FORMAÇÃO ACADÊMICA*/
 
 .checkbox1{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 395px;
+    padding-right: 398px;
     border-radius: 50px;
     
 }
+
 
 .checkbox2{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 465px;
+    padding-right: 375px;
     border-radius: 50px;
     
 }
@@ -597,7 +479,7 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 314px;
+    padding-right: 439px;
     border-radius: 50px;
     
 }
@@ -606,7 +488,140 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 494px;
+    padding-right: 340px;
+    border-radius: 50px;
+    
+}
+.checkbox5{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 324px;
+    border-radius: 50px;
+    
+}
+
+.checkbox6{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 413px;
+    border-radius: 50px;
+    
+}
+
+.checkbox7{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 355px;
+    border-radius: 50px;
+    
+}
+
+.checkbox8{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 464px;
+    border-radius: 50px;
+    
+}
+
+/* SITUAÇÃO ATUAL*/
+
+.checkbox9{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 462px;
+    border-radius: 50px;
+    
+}
+.checkbox10{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 423px;
+    border-radius: 50px;
+    
+}
+.checkbox11{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 394px;
+    border-radius: 50px;
+}
+.checkbox12{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 315px;
+    border-radius: 50px;
+    
+}
+.checkbox13{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 490px;
+    border-radius: 50px;
+    
+}
+
+.checkbox14{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    
+    
+}
+
+
+.checkbox15{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 270px;
+    border-radius: 50px;
+    
+}
+
+.checkbox16{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 267px;
+    border-radius: 50px;
+    
+}
+
+/*VAGAS PRETENDIDA*/
+
+.checkbox17{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 433px;
+    border-radius: 50px;
+    
+}
+
+.checkbox18{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 432px;
+    border-radius: 50px;
+    
+}
+
+.checkbox19{
+    width: 60px;
+    border: 2px solid rgb(46, 2, 150);
+    padding: 5px;
+    padding-right: 433px;
     border-radius: 50px;
     
 }
@@ -615,7 +630,7 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 278px;
+    padding-right: 462px;
     border-radius: 50px;
 }
 
@@ -623,16 +638,17 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 275px;
+    padding-right: 487px;
     border-radius: 50px;
     
 }
+/* QUAIS AS RAZÕES QUE MOTIVAM PARA A PRÁTICA DO VOLUNTARIADO */
 
 .checkbox30{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 235px;
+    padding-right: 226px;
     border-radius: 50px;
     
 }
@@ -640,14 +656,14 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 328px;  
+    padding-right: 324px;  
     border-radius: 50px;
 }
 .checkbox32{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 274px;
+    padding-right: 267px;
     border-radius: 50px;
     
 }
@@ -655,7 +671,7 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 336px;
+    padding-right: 330px;
     border-radius: 50px;
     
 }
@@ -663,7 +679,7 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 233px;
+    padding-right: 225px;
     border-radius: 50px;
     
 }
@@ -671,7 +687,7 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 320px;
+    padding-right: 312px;
     border-radius: 50px;
     
 }
@@ -679,22 +695,11 @@ button[type="submit"]{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 417px;
+    padding-right: 410px;
     border-radius: 50px;
     
 }
 
-.logo2{
-    position: absolute;
-    top: 10px;
-    left: 120px;
-}
-
-.logo3{
-    position: absolute;
-    top: 10px;
-    left: 60px;
-}
 .checkbox37{
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
@@ -703,6 +708,19 @@ button[type="submit"]{
     border-radius: 50px;
     
 }
+
+.logo2{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.logo3{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
 
 #experienciaVoluntario{
     width: 48%;
@@ -804,7 +822,7 @@ table, th, td {
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 415px;   
+    padding-right: 413px;   
     border-radius: 50px;
 }
 
@@ -813,7 +831,7 @@ table, th, td {
   width: 60px;
   border: 2px solid rgb(46, 2, 150);
   padding: 5px;
-  padding-right: 345px;   
+  padding-right: 341px;   
   border-radius: 50px;
 }
 
@@ -822,7 +840,7 @@ table, th, td {
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 465px;   
+    padding-right: 463px;   
     border-radius: 50px;
   }
 
@@ -831,7 +849,7 @@ table, th, td {
     width: 60px;
     border: 2px solid rgb(46, 2, 150);
     padding: 5px;
-    padding-right: 292px;   
+    padding-right: 290px;   
     border-radius: 50px;
   }
 
@@ -853,9 +871,11 @@ table, th, td {
     cursor:pointer;
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
+    
  }
  select::-ms-expand {
     display: none;
+    
  }
  .select {
     position: relative;
@@ -867,6 +887,7 @@ table, th, td {
     overflow: hidden;
     border-radius: .25em;
     color: white;
+    
  }
  .select::after {
     content: '\25BC';
@@ -878,9 +899,21 @@ table, th, td {
     cursor:pointer;
     pointer-events:none;
     transition:.25s all ease;
+    
  }
  .select:hover::after {
     color: #23b499;
  }
 
+ .cor{
+    color: #777;
+    position: relative;
+    top: -10px;
+     
+ }
+
+ #y{
+     position: relative;
+     top: 10px;
+ }
  

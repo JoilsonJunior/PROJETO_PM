@@ -33,10 +33,9 @@
                     
                         <li><a href="/create">VOLUNTÁRIO</a></li>
                         <li><a href="/createDisc">DISCIPLINAS</a></li>
-                        <li><a href="/createCursos">CURSOS E AÇÕES</a></li>
-                        <li><a href="#">PARTCIPANTES</a></li>
+                        <li><a href="/createParti">PARTICIPANTES</a></li>
                         <li><a href="/createFamilia">FAMILÍAS CARENTES</a></li>
-                        <li><a href="#">PACIENTE</a></li>               
+                        <li><a href="/createPaciente">PACIENTE</a></li>               
                         
                     </ul>
             </nav>
@@ -97,8 +96,7 @@
                         <div>
                             <input 
                             type="text"
-                            name="f" required
-                            >
+                            name="f" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxxx" required>
                         </div>
                     </div>
                     <div class="item">
@@ -141,8 +139,7 @@
                         <div>
                             <input 
                             type="text"
-                            name="w" required
-                            >
+                            name="w"  placeholder="xxxxx-xxx" required>
                         </div>
                     </div>
                     <div class="item">
@@ -245,16 +242,19 @@
 
      <div class="grauAcad">
                      <div class="col">
-                <div class="item">
-                        <div>VOCÊ ESTÁ:</div>
-                        <div>
-                          <span><input type="radio" name="gender" value="M" required>EMPREGADO</span>
-                        <span><input type="radio" name="gender" value="F" required>DESEMPREGADO</span>
-                        <span><input type="radio" name="gender" value="F" required>AUTÔNOMO</span>
-                        </div>
+                <div class="cor">VOCÊ ESTÁ:</div>
+            
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="fb2">EMPREGADO</option>
+      <option value="mobi">DESEMPREGADO</option>
+      <option value="mobi">AUTÔNOMO</option>
+   </select>
+</div><br>
                     </div>
                     </div>
-                    </div>
+                    </div><br><br>
                     
                     
                     </div>
@@ -327,27 +327,29 @@
                             </div>                            
                         </div>
                         </div>
+                        </div>
                               <div class="col">
-<div>CASA:</div><br>
+<h1 class="ficha"></h1><br>
+<div class="cor">CASA:</div>
                         
 <div class="select">
    <select name="format" id="format">
       <option selected disabled>Selecione</option>
-      <option value="pdf">PRÓPRIA</option>
-      <option value="txt">CEDIDA</option>
-      <option value="txt">ALUGADA</option>
+      <option value="pdf">Própria</option>
+      <option value="txt">Cedida</option>
+      <option value="txt">Alugada</option>
 
    </select>
 </div>
                         
                          <div class="col">
-           <div>RECEBE BOLSA FAMÍLIA:</div><br>
+           <div class="cor">RECEBE BOLSA FAMÍLIA:</div>
                         
 <div class="select">
    <select name="format" id="format">
       <option selected disabled>Selecione</option>
-      <option value="pdf">SIM</option>
-      <option value="txt">NÃO</option>
+      <option value="pdf">Sim</option>
+      <option value="txt">Não</option>
 
    </select>
 </div><br><br>
@@ -380,8 +382,166 @@
                         </div>
                     </div>
                     </div>   
-                </div>
+                </div><br><br>
+<h1 class="ficha"></h1><br>
+                <div class="cor">CURSOS:</div>
+            
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="fb2">Karatê </option>
+      <option value="mobi">Boxe</option>
+      <option value="mobi">Dança</option>
+      <option value="mobi">Maquiagem</option>
+      <option value="mobi">Inglês Básico</option>
+   </select>
+</div><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="fb2">Karatê </option>
+      <option value="mobi">Boxe</option>
+      <option value="mobi">Dança</option>
+      <option value="mobi">Maquiagem</option>
+      <option value="mobi">Inglês Básico</option>
+   </select>
+</div><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="fb2">Karatê </option>
+      <option value="mobi">Boxe</option>
+      <option value="mobi">Dança</option>
+      <option value="mobi">Maquiagem</option>
+      <option value="mobi">Inglês Básico</option>
+   </select>
+</div><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="fb2">Karatê </option>
+      <option value="mobi">Boxe</option>
+      <option value="mobi">Dança</option>
+      <option value="mobi">Maquiagem</option>
+      <option value="mobi">Inglês Básico</option>
+   </select>
+</div><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="fb2">Karatê </option>
+      <option value="mobi">Boxe</option>
+      <option value="mobi">Dança</option>
+      <option value="mobi">Maquiagem</option>
+      <option value="mobi">Inglês Básico</option>
+   </select>
+</div><br><br>
+      <h1 class="ficha"></h1><br>
+    <div class="cor">CURSOS PREPARATÓRIO:</div>
 
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="pdf">Preparatório Enem</option>
+      <option value="txt">Preparatório Concurso</option>
+      <option value="epub">Pré IFBA</option>
+   </select>
+</div><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="pdf">Preparatório Enem</option>
+      <option value="txt">Preparatório Concurso</option>
+      <option value="epub">Pré IFBA</option>
+   </select>
+</div><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>
+      <option value="pdf">Preparatório Enem</option>
+      <option value="txt">Preparatório Concurso</option>
+      <option value="epub">Pré IFBA</option>
+   </select>
+</div><br><br>
+<h1 class="ficha"></h1><br>
+                <div class="cor">REFORÇO ACADÊMICO</div>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>>
+      <option value="mobi">Reforço Acadêmico (Química)</option>
+      <option value="mobi">Reforço Acadêmico (Física)</option>
+      <option value="mobi">Reforço Acadêmico (Biologia)</option>
+      <option value="mobi">Reforço Acadêmico (Matemática</option>
+      <option value="mobi">Reforço Acadêmico (Língua Portuguesa)</option>
+      <option value="mobi">Reforço Acadêmico ( Inglês)</option>
+   </select>
+</div><br>
+
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>>
+      <option value="mobi">Reforço Acadêmico (Química)</option>
+      <option value="mobi">Reforço Acadêmico (Física)</option>
+      <option value="mobi">Reforço Acadêmico (Biologia)</option>
+      <option value="mobi">Reforço Acadêmico (Matemática</option>
+      <option value="mobi">Reforço Acadêmico (Língua Portuguesa)</option>
+      <option value="mobi">Reforço Acadêmico ( Inglês)</option>
+   </select>
+</div><br>
+
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>>
+      <option value="mobi">Reforço Acadêmico (Química)</option>
+      <option value="mobi">Reforço Acadêmico (Física)</option>
+      <option value="mobi">Reforço Acadêmico (Biologia)</option>
+      <option value="mobi">Reforço Acadêmico (Matemática</option>
+      <option value="mobi">Reforço Acadêmico (Língua Portuguesa)</option>
+      <option value="mobi">Reforço Acadêmico ( Inglês)</option>
+   </select>
+</div><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>>
+      <option value="mobi">Reforço Acadêmico (Química)</option>
+      <option value="mobi">Reforço Acadêmico (Física)</option>
+      <option value="mobi">Reforço Acadêmico (Biologia)</option>
+      <option value="mobi">Reforço Acadêmico (Matemática</option>
+      <option value="mobi">Reforço Acadêmico (Língua Portuguesa)</option>
+      <option value="mobi">Reforço Acadêmico ( Inglês)</option>
+   </select>
+</div><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>>
+      <option value="mobi">Reforço Acadêmico (Química)</option>
+      <option value="mobi">Reforço Acadêmico (Física)</option>
+      <option value="mobi">Reforço Acadêmico (Biologia)</option>
+      <option value="mobi">Reforço Acadêmico (Matemática</option>
+      <option value="mobi">Reforço Acadêmico (Língua Portuguesa)</option>
+      <option value="mobi">Reforço Acadêmico ( Inglês)</option>
+   </select>
+</div><br>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Selecione</option>>
+      <option value="mobi">Reforço Acadêmico (Química)</option>
+      <option value="mobi">Reforço Acadêmico (Física)</option>
+      <option value="mobi">Reforço Acadêmico (Biologia)</option>
+      <option value="mobi">Reforço Acadêmico (Matemática</option>
+      <option value="mobi">Reforço Acadêmico (Língua Portuguesa)</option>
+      <option value="mobi">Reforço Acadêmico ( Inglês)</option>
+   </select>
+</div><br>
+
+
+
+
+
+
+
+  </div>
+</div>
             
             
 

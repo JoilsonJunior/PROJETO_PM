@@ -24,13 +24,6 @@ routes.get('/disciplina', function(req,res){
     return res.render('disciplina')    
 })
 
-routes.get('/createCursos', function(req,res){
-    return res.render('createCursos')    
-})
-routes.get('/cursoseacoes', function(req,res){
-    return res.render('cursoseacoes')    
-})
-
 routes.get('/createFamilia', function(req,res){
     return res.render('createFamilia')    
 })
@@ -38,7 +31,20 @@ routes.get('/createFamilia', function(req,res){
 routes.get('/familiacarente', function(req,res){
     return res.render('familiacarente')    
 })
+routes.get('/createPaciente', function(req,res){
+    return res.render('createPaciente')    
+})
 
+routes.get('/paciente', function(req,res){
+    return res.render('paciente')    
+})
+routes.get('/createParti', function(req,res){
+    return res.render('createParti')    
+})
+
+routes.get('/participantes', function(req,res){
+    return res.render('participantes')    
+})
 
 
 
